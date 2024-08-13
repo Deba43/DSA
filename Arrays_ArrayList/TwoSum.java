@@ -30,25 +30,25 @@ public class TwoSum {
 
 // to print all the indices if there is one or more solutions found
 
-class Solution {
-    public static void main(String args[]) {
-        int[] nums = { 5, 7, 1, 4, 6 };
-        int target = 11;
+// class Solution {
+// public static void main(String args[]) {
+// int[] nums = { 5, 7, 1, 4, 6 };
+// int target = 11;
 
-        twoSum(nums, target);
-    }
+// twoSum(nums, target);
+// }
 
-    public static void twoSum(int[] nums, int target) {
-        int n = nums.length;
+// public static void twoSum(int[] nums, int target) {
+// int n = nums.length;
 
-        for (int i = 0; i < n - 1; i++) {
-            for (int j = i + 1; j < n; j++) {
-                if (nums[i] + nums[j] == target) {
-                    System.out.println("Indices: [" + i + ", " + j + "]");
+// for (int i = 0; i < n - 1; i++) {
+// for (int j = i + 1; j < n; j++) {
+// if (nums[i] + nums[j] == target) {
+// System.out.println("Indices: [" + i + ", " + j + "]");
 
-                }
-            }
-        }
+// }
+// }
+// }
 
-    }
-}
+// }
+// }
