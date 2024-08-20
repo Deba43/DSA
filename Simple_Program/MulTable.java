@@ -1,3 +1,5 @@
+package Simple_Program;
+
 import java.util.Scanner;
 
 class MulTable {
