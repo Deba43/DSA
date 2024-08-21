@@ -8,10 +8,10 @@ public class HCFLCM {
         int num1, num2, temp1, temp2, gcd, lcm;
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter first number:");
+        System.out.print("Enter first number:");
         num1 = sc.nextInt();
 
-        System.out.println("Enter second number:");
+        System.out.print("Enter second number:");
         num2 = sc.nextInt();
 
         // Store original values for LCM calculation
@@ -28,7 +28,7 @@ public class HCFLCM {
         gcd = temp1;
         lcm = (num1 * num2) / gcd;
 
-        System.out.println("GCD of " + num1 + " and " + num2 + " is " + gcd);
+        System.out.print("GCD of " + num1 + " and " + num2 + " is " + gcd);
         System.out.println("LCM of " + num1 + " and " + num2 + " is " + lcm);
 
         sc.close();

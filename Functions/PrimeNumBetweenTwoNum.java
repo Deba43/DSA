@@ -2,7 +2,7 @@ package Functions;
 
 public class PrimeNumBetweenTwoNum {
     public static void main(String[] args) {
-        prime(10, 20); // Example range
+        prime(10, 20);
     }
 
     public static void prime(int a, int b) {
