@@ -36,4 +36,23 @@ public class PeakElement {
         return index;
     }
 
+    public static void main(String[] args) {
+        PeakElement pe = new PeakElement();
+
+        int[][] mat1 = {
+                { 1, 4, 3, 6 },
+                { 7, 8, 9, 10 },
+                { 5, 2, 1, 0 }
+        };
+        int[] result1 = pe.findPeakGrid(mat1);
+        System.out.println("Peak found at: [" + result1[0] + ", " + result1[1] + "]");
+
+        int[][] mat2 = {
+                { 10, 20, 15 },
+                { 21, 30, 14 },
+                { 7, 16, 32 }
+        };
+        int[] result2 = pe.findPeakGrid(mat2);
+        System.out.println("Peak found at: [" + result2[0] + ", " + result2[1] + "]");
+    }
 }
