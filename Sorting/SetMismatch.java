@@ -1,9 +1,11 @@
 package Sorting;
 
+import java.util.Arrays;
+
 public class SetMismatch {
     public static void main(String[] args) {
         int arr[] = { 1, 2, 2, 4 };
-        System.out.println(findErrorNums(arr));
+        System.out.println(Arrays.toString(findErrorNums(arr)));
     }
 
     public static int[] findErrorNums(int arr[]) {
