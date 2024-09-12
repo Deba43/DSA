@@ -13,7 +13,9 @@ public class SetMismatch {
         while (i < arr.length) {
             int correctIndex = arr[i] - 1;
             if (arr[i] != arr[correctIndex]) {
-                swap(arr, i, correctIndex);
+                int temp = arr[i];
+                arr[i] = arr[correctIndex];
+                arr[correctIndex] = temp;
             } else {
                 i++;
             }
@@ -27,10 +29,4 @@ public class SetMismatch {
         return new int[] { -1, -1 };
     }
 
-    static void swap(int[] arr, int first, int second) {
-        int temp = arr[first];
-        arr[first] = arr[second];
-        arr[second] = temp;
-
-    }
 }
