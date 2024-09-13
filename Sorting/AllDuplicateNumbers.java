@@ -14,7 +14,7 @@ public class AllDuplicateNumbers {
         int i = 0;
         while (i < arr.length) {
             int correctIndex = arr[i] - 1;
-            if (arr[i] != arr[correctIndex] && arr[i] != arr[correctIndex]) {
+            if (arr[i] != arr[correctIndex]) {
                 int temp = arr[i];
                 arr[i] = arr[correctIndex];
                 arr[correctIndex] = temp;
