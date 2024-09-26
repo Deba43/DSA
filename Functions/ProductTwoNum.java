@@ -18,5 +18,6 @@ public class ProductTwoNum {
 
         int product = a * b;
         System.out.println("Product of " + a + " and " + b + " is: " + product);
+        sc.close();
     }
 }

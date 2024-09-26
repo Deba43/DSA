@@ -15,6 +15,7 @@ public class AreaParallelogram {
         double area = b * h;
 
         System.out.println("The area of Parallelogram with base " + b + " and height " + h + " is " + area);
+        sc.close();
     }
 
 }

@@ -40,5 +40,6 @@ public class NestedSwitch {
             default:
                 System.out.println("Enter correct Employee ID");
         }
+        sc.close();
     }
 }

@@ -12,6 +12,7 @@ public class AreaCircle {
         double area = 3.14 * r * r;
 
         System.out.println("The area of circle with radius " + r + " is " + area);
+        sc.close();
 
     }
 

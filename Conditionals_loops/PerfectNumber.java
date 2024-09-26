@@ -22,6 +22,7 @@ public class PerfectNumber {
         } else {
             System.out.println(a + " is not a perfect number");
         }
+        sc.close();
     }
 
 }

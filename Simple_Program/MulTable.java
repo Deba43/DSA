@@ -12,6 +12,7 @@ class MulTable {
 
             System.out.println(a + "*" + i + " = " + a * i);
         }
+        s.close();
 
     }
 }

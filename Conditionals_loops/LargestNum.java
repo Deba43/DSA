@@ -24,6 +24,7 @@ public class LargestNum {
         int max = Math.max(c, Math.max(a, b));
 
         System.out.println("Maximum number is:" + max);
+        sc.close();
     }
 
 }

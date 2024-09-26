@@ -12,6 +12,7 @@ public class PerimeterSquare {
         double pm = 4 * a;
 
         System.out.println("The perimeter of square with side " + a + " is " + pm);
+        sc.close();
     }
 
 }

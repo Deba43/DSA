@@ -22,6 +22,7 @@ public class Conditionals {
         }
 
         System.out.println("The salary after bonus is: " + salary);
+        sc.close();
     }
 
 }

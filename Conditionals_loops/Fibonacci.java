@@ -18,6 +18,7 @@ public class Fibonacci {
             count++;
         }
         System.out.println("The Fibonacci upto " + n + " is: " + b);
+        sc.close();
     }
 
 }

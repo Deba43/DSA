@@ -13,6 +13,7 @@ public class AreaEquilateral {
         double area = (1.73 / 4) * a * a;
 
         System.out.println("The area of Equilateral triangle with side " + a + " is " + area);
+        sc.close();
     }
 
 }

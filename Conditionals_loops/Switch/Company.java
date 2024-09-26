@@ -59,6 +59,7 @@ public class Company {
                 System.out.println("This Company isn't saved in our database please contact admin for more details");
 
         }
+        sc.close();
     }
 
 }

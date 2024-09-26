@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class LargestNumbers {
 
     public static void main(String[] args) {
@@ -15,6 +13,7 @@ public class LargestNumbers {
 
         }
         System.out.println("The largest number is:" + a[j]);
+
     }
 
 }

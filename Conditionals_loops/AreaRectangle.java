@@ -16,5 +16,6 @@ public class AreaRectangle {
         double area = l * w;
 
         System.out.println("The area of Rectangle with length " + l + " and width " + w + " is " + area);
+        sc.close();
     }
 }

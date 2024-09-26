@@ -14,6 +14,7 @@ public class Question {
                 System.out.print(i + " ");
             }
         }
+        in.close();
     }
 
     // print all the 3 digits armstrong numbers

@@ -17,6 +17,8 @@ public class AreaIsosceles {
         double area = 0.5 * b * h;
 
         System.out.println("The area of Isosceles triangle with base " + b + " and height " + h + " is " + area);
+
+        sc.close();
     }
 
 }

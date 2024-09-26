@@ -1,23 +1,19 @@
-    package Simple_Program;
+package Simple_Program;
 
-    import java.util.Scanner;
+import java.util.Scanner;
 
-    public class EvenOdd 
-    {
-        public static void main(String[] args) 
-        {
+public class EvenOdd {
+    public static void main(String[] args) {
 
         Scanner ac = new Scanner(System.in);
         System.out.println("Please enter number");
         int num = ac.nextInt();
-        if(num%2 == 0)
-        {
+        if (num % 2 == 0) {
             System.out.println("The number " + num + " is even");
-        }
-        else
-        {
+        } else {
             System.out.println("The number " + num + " is odd");
         }
-        }
-        
+        ac.close();
     }
+
+}

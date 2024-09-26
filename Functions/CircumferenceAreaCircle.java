@@ -24,6 +24,7 @@ public class CircumferenceAreaCircle {
         double area = Math.PI * a * a;
 
         System.out.println("Area of circle is: " + area);
+        sc.close();
 
     }
 

@@ -16,6 +16,7 @@ public class VolCone {
         double vol = (3.14 * r * r * h) / 3;
 
         System.out.println("The volume of Cone with radius " + r + " and height " + h + " is " + vol);
+        sc.close();
     }
 
 }

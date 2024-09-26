@@ -17,6 +17,7 @@ public class VowelConsonant {
         } else {
             System.out.println(c + " is a Consonant");
         }
+        sc.close();
     }
 
 }

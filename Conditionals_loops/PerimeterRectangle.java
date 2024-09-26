@@ -15,6 +15,7 @@ public class PerimeterRectangle {
         double pm = 2 * (l + w);
 
         System.out.println("The perimeter of rectangle with length " + l + " and width " + w + " is " + pm);
+        sc.close();
     }
 
 }

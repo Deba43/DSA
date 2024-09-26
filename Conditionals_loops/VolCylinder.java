@@ -16,6 +16,7 @@ public class VolCylinder {
         double vol = 3.14 * r * r * h;
 
         System.out.println("The volume of Cylinder with radius " + r + " and height " + h + " is " + vol);
+        sc.close();
     }
 
 }

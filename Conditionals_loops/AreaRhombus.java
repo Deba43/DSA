@@ -16,5 +16,7 @@ public class AreaRhombus {
         double area = 0.5 * d1 * d2;
 
         System.out.println("The area of Rhombus with 1st diagonal " + d1 + " and 2nd diagonal " + d2 + " is " + area);
+
+        sc.close();
     }
 }

@@ -15,6 +15,7 @@ public class VolPrism {
         double vol = a * h;
 
         System.out.println("The Volume of Prism with base area " + a + " and height " + h + " is " + vol);
+        sc.close();
     }
 
 }

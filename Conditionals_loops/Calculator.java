@@ -30,6 +30,7 @@ public class Calculator {
         }
 
         System.out.println("The " + op + " of " + num1 + " and " + num2 + " is " + cal);
+        sc.close();
 
     }
 }

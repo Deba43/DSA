@@ -11,6 +11,7 @@ public class VolSphere {
         double vol = (4 * 3.14 * r * r * r) / 3;
 
         System.out.println("The volume of sphere with radius " + r + " is " + vol);
+        sc.close();
     }
 
 }

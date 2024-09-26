@@ -11,6 +11,7 @@ public class PerimeterEquilateral {
         double pm = 3 * a;
 
         System.out.println("The perimeter of equilateral triangle with side " + a + " is " + pm);
+        sc.close();
     }
 
 }

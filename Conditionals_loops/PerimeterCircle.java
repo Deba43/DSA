@@ -11,6 +11,7 @@ public class PerimeterCircle {
         double pm = 2 * 3.14 * r;
 
         System.out.println("The perimeter of Circle with radius " + r + " is " + pm);
+        sc.close();
     }
 
 }

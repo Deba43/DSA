@@ -11,6 +11,7 @@ public class VolCube {
         double vol = a * a * a;
 
         System.out.println("The volume of cube with side " + a + " is " + vol);
+        sc.close();
 
     }
 

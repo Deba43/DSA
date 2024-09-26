@@ -15,6 +15,7 @@ public class CaseCheck {
         } else {
             System.out.println("The Character is in UpperCase");
         }
+        sc.close();
 
     }
 

@@ -16,6 +16,7 @@ public class AreaCylinder {
         double area = 2 * 3.14 * r * r + 2 * 3.14 * r * h;
 
         System.out.println("The area of Cylinder with radius " + r + " and height " + h + " is " + area);
+        sc.close();
 
     }
 }

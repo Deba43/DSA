@@ -30,6 +30,7 @@ public class GradeMarks {
         } else {
             System.out.println("You have failed in Exam");
         }
+        sc.close();
     }
 
 }

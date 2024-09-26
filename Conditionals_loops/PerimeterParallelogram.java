@@ -15,6 +15,7 @@ public class PerimeterParallelogram {
         double pm = 2 * (a + b);
 
         System.out.println("The perimeter of parallelogram with side " + a + " and base " + b + " is " + pm);
+        sc.close();
     }
 
 }

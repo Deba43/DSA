@@ -12,6 +12,7 @@ public class PerimeterRhombus {
         double pm = 4 * a;
 
         System.out.println("The perimeter of rhombus with side " + a + " is " + pm);
+        sc.close();
     }
 
 }

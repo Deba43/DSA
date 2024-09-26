@@ -11,6 +11,7 @@ public class AreaCube {
         int area = 6 * e * e;
 
         System.out.println("The area of cube with edge " + e + " is " + area);
+        sc.close();
 
     }
 

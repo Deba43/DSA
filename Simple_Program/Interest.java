@@ -20,6 +20,8 @@ public class Interest {
         System.out.println("The simple interest of " + principal + " in a time span of " + time + "yrs is " + si);
         int total_amount = principal + si;
         System.out.println("Amount that you have to pay to the bank at the end of the year is: " + total_amount);
+        a.close();
+        b.close();
 
     }
 
