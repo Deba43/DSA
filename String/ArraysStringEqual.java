@@ -28,6 +28,5 @@ public class ArraysStringEqual {
         }
 
         return false;
-
     }
 }

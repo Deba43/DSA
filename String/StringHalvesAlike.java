@@ -29,6 +29,7 @@ public class StringHalvesAlike {
                     count2++;
                 }
             }
+
             i++;
             j++;
         }
