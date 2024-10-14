@@ -19,13 +19,11 @@ public class StringHalvesAlike {
         int i = 0;
         int j = n / 2;
         while (i < n / 2 && j < n) {
-            char ch1 = s.charAt(i);
-            char ch2 = s.charAt(j);
             for (int c = 0; c < vowels.length; c++) {
-                if (vowels[c] == ch1) {
+                if (vowels[c] == s.charAt(i)) {
                     count1++;
                 }
-                if (vowels[c] == ch2) {
+                if (vowels[c] == s.charAt(j)) {
                     count2++;
                 }
             }
