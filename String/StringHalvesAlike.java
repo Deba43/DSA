@@ -1,22 +1,41 @@
 package String;
 
-import java.util.HashSet;
-
 public class StringHalvesAlike {
-    public boolean halvesAreAlike(String s) {
-        HashSet<Character> set = new HashSet<>();
-        for (char c : "aeiouAEIOU".toCharArray())
-            set.add(c);
+    public static void main(String[] args) {
 
-        int count = 0;
-        for (int i = 0; i < s.length() / 2; i++) {
-            if (set.contains(s.charAt(i)))
-                count++;
-            if (set.contains(s.charAt(i + s.length() / 2)))
-                count--;
-        }
+        // String s = "book";
+        String s = "textbook";
+        boolean b = halvesAreAlike(s);
+        System.out.println(b);
 
-        return count == 0;
     }
-    
+
+    public static boolean halvesAreAlike(String s) {
+
+        int n = s.length();
+        int count1 = 0;
+        int count2 = 0;
+        char[] vowels = { 'A', 'E', 'I', 'O', 'U', 'a', 'e', 'i', 'o', 'u' };
+        int i = 0;
+        int j = n / 2;
+        while (i < n / 2 && j < n) {
+            char ch1 = s.charAt(i);
+            char ch2 = s.charAt(j);
+            for (int c = 0; c < vowels.length; c++) {
+                if (vowels[c] == ch1) {
+                    count1++;
+                }
+                if (vowels[c] == ch2) {
+                    count2++;
+                }
+            }
+            i++;
+            j++;
+        }
+        if (count1 == count2) {
+            return true;
+        }
+        return false;
+    }
+
 }
