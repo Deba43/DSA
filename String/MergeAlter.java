@@ -10,19 +10,19 @@ public class MergeAlter {
     }
 
     public static String mergeAlternately(String word1, String word2) {
-        StringBuilder mergedString = new StringBuilder("");
+        StringBuilder m = new StringBuilder("");
         int i = 0;
-        int largerStringLength = Math.max(word1.length(), word2.length());
-        while (i < largerStringLength) {
+        int l = Math.max(word1.length(), word2.length());
+        while (i < l) {
             if (i < word1.length()) {
-                mergedString.append(word1.charAt(i));
+                m.append(word1.charAt(i));
             }
             if (i < word2.length()) {
-                mergedString.append(word2.charAt(i));
+                m.append(word2.charAt(i));
             }
             i++;
         }
-        return mergedString.toString();
+        return m.toString();
     }
 
 }
